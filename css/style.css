@@ -1,0 +1,146 @@
+main {
+    display: flex;
+    flex-direction: column;
+    width: 901px;
+    justify-content: center;
+    margin: auto;
+    padding: 40px;
+}
+
+header {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 901px;
+    margin: 0 auto;
+}
+
+.headerLeft {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#delicious {
+    font-family: 'yellowtail';
+    font-size: 40px;
+}
+
+.thin {
+    font-family: 'Patrick Hand SC';
+    font-weight: lighter;
+    font-size: small;
+    color:gray
+}
+
+h1 {
+    display: flex;
+    font-family: 'Oswald';
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+header2 {
+    padding-bottom: 30px;
+}
+
+.recipeText {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+p {
+    padding-bottom: 20px;
+    color: gray;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 20px 
+}
+
+
+strong {
+    font-family: 'Patrick Hand SC';
+    color: gray;
+    font-size: small;
+}
+
+.abovePicture {
+    margin-bottom: 40px;
+}
+
+.abovePicture {
+    display: flex;
+    flex-direction: row;
+    width: 901px;
+    justify-content: space-between;
+}
+
+.recipe {
+    position: relative;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    top: 10%;
+    width: 901px;
+}
+
+.ul1, .ul2 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Patrick Hand SC';
+    font-size: larger;
+    line-height: 30px;
+    color: rgb(102, 97, 97);
+}
+
+.author {
+    display: flex;
+}
+
+.middle {
+    padding-right: 100px;
+}
+
+button {
+    border-style: none;
+    color: rgb(237, 237, 237);
+    width: 20%;
+    background-color: rgb(181, 79, 39);
+    font-family: 'PATRICK HAND SC';
+    font-size: large;
+    height: 50px;
+}
+
+footer { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.fork {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 30px
+
+}
+
+.footerP {
+    display: flex;
+    margin: 0 auto;
+}
+
+.logo2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.line {
+    height: 1px;
+}
